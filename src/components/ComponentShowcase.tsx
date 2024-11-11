@@ -13,12 +13,13 @@ export const ComponentShowcase: React.FC = () => {
       {/* FontAwesome Icons */}
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-4">FontAwesome Icons</h2>
-        <div className="flex flex-wrap gap-4">
-          <FontAwesomeIcon icon={faHome} size="2x" />
-          <FontAwesomeIcon icon={faUser} size="2x" />
-          <FontAwesomeIcon icon={faCog} size="2x" />
-          <FontAwesomeIcon icon={faEnvelope} size="2x" />
-        </div>
+        <div className="w-1/3">
+        <div className="flex gap-4">
+          <FontAwesomeIcon icon={faHome} size="sm" />
+          <FontAwesomeIcon icon={faUser} size="sm" />
+          <FontAwesomeIcon icon={faCog} size="sm" />
+          <FontAwesomeIcon icon={faEnvelope} size="sm" />
+        </div></div>
       </section>
       {/* Buttons */}
       <section className="mb-16">
